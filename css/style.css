@@ -636,6 +636,17 @@ a {
     fill: #4D5AE5;
 }
 
+.form-label {
+    resize: none;
+}
+
+.form-message {
+    width: 100%;
+    padding: 22px 24px;
+    border-radius: 4px;
+    border: ;
+}
+
 .send-btn {
     display: inline-flex;
     padding: 16px 32px;
