@@ -568,10 +568,12 @@ a {
     width: 24px;
     height: 24px;
     color: #2E2F42;
+    border-radius: 50%;
 }
 
 .modal-btn-icon {
     stroke: currentColor;
+
 }
 
 .modal-caption {
@@ -584,7 +586,7 @@ a {
     font-family: Roboto;
     font-size: 16px;
     line-height: 24px;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
 }
 
 .form-label {
@@ -670,6 +672,7 @@ a {
     border: 1px solid #FFF;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     background-color: transparent;
+    padding: 8px 16px;
 }
 
 .subscribe-form-btn {
@@ -687,5 +690,5 @@ a {
 }
 
 .subscribe-form-icon {
-    color: white;
+    fill: white;
 }
