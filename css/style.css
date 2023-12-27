@@ -642,3 +642,50 @@ a {
     background: #4D5AE5;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
+.footer-wrapper {
+    margin-left: auto;
+}
+
+.wrapper-caption {
+    color: #FFF;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    margin-bottom: 16px;
+}
+
+.form-subscribe {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.subscribe-form-field {}
+
+.subscribe-form-input {
+    width: 264px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
+
+.subscribe-form-btn {
+    color: #FFF;
+    text-align: center;
+    padding: 8px 24px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    font-size: 16px;
+    border-radius: 4px;
+    background: #4D5AE5;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+}
+
+.subscribe-form-icon {
+    color: white;
+}
