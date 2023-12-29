@@ -614,15 +614,19 @@ a {
 .form-label {
     display: block;
     margin-bottom: 4px;
+    line-height: 1.17;
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: #8e8f99;
+}
 
-    font-size: 14px;
-    letter-spacing: -0.02em;
-    color: rgba(64, 64, 64, 0.3);
+.form-container {
+    position: relative;
 }
 
 .form-field {
     position: relative;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 
 }
 
@@ -698,7 +702,7 @@ a {
     gap: 24px;
 }
 
-.subscribe-form-field {}
+
 
 .subscribe-form-input {
     width: 264px;
