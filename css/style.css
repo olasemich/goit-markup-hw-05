@@ -332,7 +332,7 @@ a {
     fill: currentColor;
 }
 
-.social-link:hover .social-icon {}
+
 
 .section-four-heading {
     font-size: 36px;
@@ -708,6 +708,12 @@ a {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+
+.checkbox-span:checked {
+    background-color: #404BBF;
+    border: none;
+    fill: #F4F4FD;
 }
 
 
