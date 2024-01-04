@@ -708,7 +708,7 @@ a {
     fill: transparent;
 }
 
-.checkbox:checked+.checkbox-span {
+.checkbox :checked+.checkbox-span {
     background-color: #404BBF;
     border: none;
     fill: #F4F4FD;
