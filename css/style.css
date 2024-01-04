@@ -718,11 +718,24 @@ a {
     width: 100%;
     padding: 22px 24px;
     border-radius: 4px;
-    border: ;
+
+}
+
+.form-agreement-link {
+    color: #4d5ae5;
 }
 
 .send-btn {
-    display: inline-flex;
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    border: none;
     padding: 16px 32px;
     align-items: flex-start;
     border-radius: 4px;
